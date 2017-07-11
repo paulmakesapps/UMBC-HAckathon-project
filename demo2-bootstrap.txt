@@ -1,0 +1,99 @@
+*****BOOTSTRAP DEMO-PAUL MCMULLEN*****
+1)Copy all of the files from the first demo into a new folder
+
+2) add these script tags into the head section
++++
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
++++
+3)We are going to add a title bar to the webpage, so comment out or delete any heading code and add in
+
++++
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>
++++
+
+4) Change the text of the tags based off of your website 
+
+5)Next, add a button tag anywhere you need a button
+
++++
+  <button type="button" class="btn btn-default">Default</button>
++++
+
+6) bootstrap includes other button types
++++
+<button type="button" class="btn btn-default">Default</button>
+  <button type="button" class="btn btn-primary">Primary</button>
+  <button type="button" class="btn btn-success">Success</button>
+  <button type="button" class="btn btn-info">Info</button>
+  <button type="button" class="btn btn-warning">Warning</button>
+  <button type="button" class="btn btn-danger">Danger</button>
+  <button type="button" class="btn btn-link">Link</button>
++++
+
+7)Grouping buttons and dropdown buttons
+
++++
+<div class="btn-group">
+  <button type="button" class="btn btn-primary">Btn</button>
+  <button type="button" class="btn btn-primary">Btn</button>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Dropdown Btn <span class="caret"></span></button>
+    <ul class="dropdown-menu" role="menu">
+      <li><a href="#">item</a></li>
+      <li><a href="#">item</a></li>
+    </ul>
+  </div>
+</div>
++++
+
+8)Add in a collapsable area
+
++++
+<button data-toggle="collapse" data-target="#demo">Collapsible</button>
+<div id="demo" class="collapse">
+sample text sample text sample text
+</div>
++++
+
+9)add images with different shapes
+
++++
+<img src="image name" class="img-rounded" width="300" height="300">
+<img src="image name" class="img-circle"  width="300" height="300">
++++
+
+10) responsive images resize for different screen sizes
+
++++
+<img class="img-responsive" src="image name">
++++
+
+11) combine an image with a colapsable area tag
+
+12)make the top toolbar link to elements on the page
+
++++
+id="section" <-- add this to a div tag 
++++
+
++++
+<a href="#section">Section</a> <-- add this to the top toolbar
++++
+
+
+_-_-_-_-End of demo-_-_-_-_

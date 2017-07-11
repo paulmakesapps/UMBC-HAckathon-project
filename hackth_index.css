@@ -1,0 +1,31 @@
+body {
+    background-image: url("https://images6.alphacoders.com/512/512054.jpg");
+            min-height: 500px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+}
+
+div {
+    background-color: white;
+}
+.billboard {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+}
+.segment{
+	    border-radius: 25px;
+
+}
+
+.nav_shadow{
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+
+}
+
+.darktext{
+	color: black;
+}
